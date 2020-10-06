@@ -35,10 +35,14 @@ if($num > 0){
   
         $news_item = array(
             "id" => $id,
-            "name" => $id,
-            "surname" => $id,
-            "username" => $name,
-            "email" => $units
+            "author" => $author,
+            "title" => $title,
+            "category" => $category,
+            "date_added" => $date_added,
+            "content" => $content,
+            "short_description" => $short_description,
+            //"picture" => $picture,
+            "picture_source" => $picture_source
         );
   
         array_push($news_arr["records"], $news_item);

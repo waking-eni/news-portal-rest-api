@@ -12,6 +12,32 @@
 
 <body>
 
+<!-- HEADER -->
+<?php
+    include 'includes/header.php';
+?>
+<!-- HEADER END -->
+
+<!-- WRAPPER -->
+<div class="container-fluid wrapper-container">
+    <div class="row row-wrapper mt-5">
+
+        <!-- SIDEBAR -->
+        <?php
+            include 'includes/sidebar.php';
+        ?>
+        <!-- SIDEBAR END -->
+
+
+        <!-- MAIN -->
+        <?php
+            include 'includes/main.php';
+        ?>
+        <!-- MAIN END -->
+
+    </div>
+</div>
+<!-- WRAPPER END -->
 
 <!-- BOOTSTRAP JS -->
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" 
